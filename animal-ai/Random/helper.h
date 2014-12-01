@@ -29,6 +29,7 @@ struct Operation {
         int direction;
         Point target;
     };
+    Operation(): source(), direction(0) {}
     Operation(const Point& src, const int dir): source(src), direction(dir) {}
     Operation(const Point& src, const Point& tar): source(src), target(tar) {}
 };

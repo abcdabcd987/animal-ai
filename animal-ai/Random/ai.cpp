@@ -2,9 +2,33 @@
 #include <vector>
 #include <cstdlib>
 
-const std::string AI::_name = "α - Pure Random";
+const std::string AI::_name = "α - Rad0m";
 
 Operation AI::makeDecision() {
+    Operation op;
+    Animal* toEat = nullptr;
+    for (int i = 0; i < ANIMALS; ++i) {
+        Animal *animal = _board.friendAnimal(i);
+        if (!animal)
+            continue;
+        for (int d = 0; d < DIRS; ++d) {
+            const Point tar(animal->canMove(d));
+            if (tar == Animal::INVALID_MOVE)
+                continue;
+            Animal *target = _board.animal(tar);
+            if (!target)
+                continue;
+            if (!toEat || target->type() > toEat->type()) {
+                toEat = target;
+                op.source = animal->position();
+                op.direction = d;
+            }
+        }
+    }
+    
+    if (toEat)
+        return op;
+    
     std::vector<Animal*> v;
     for (int i = 0; i < ANIMALS; ++i) {
         Animal *animal = _board.friendAnimal(i);
