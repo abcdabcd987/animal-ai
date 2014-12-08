@@ -15,8 +15,11 @@ Operation AI::makeDecision() {
             const Point tar(animal->canMove(d));
             if (tar == Animal::INVALID_MOVE)
                 continue;
+            if (_board.landType(tar) == Board::ENEMY_CAVE) {
+                return Operation(animal->position(), d);
+            }
             Animal *target = _board.animal(tar);
-            if (!target)
+            if (!target || !animal->canEat(target))
                 continue;
             if (!toEat || target->type() > toEat->type()) {
                 toEat = target;
