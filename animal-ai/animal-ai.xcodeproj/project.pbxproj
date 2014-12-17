@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE42BA271A28B210004AAC92 /* board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE42BA251A28B210004AAC92 /* board.cpp */; };
-		FE42BA2A1A28B3F7004AAC92 /* animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE42BA281A28B3F7004AAC92 /* animal.cpp */; };
-		FE42BA2C1A28C12D004AAC92 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE42BA2B1A28C12D004AAC92 /* main.cpp */; };
-		FE42BA2E1A28C272004AAC92 /* helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE42BA2D1A28C272004AAC92 /* helper.cpp */; };
-		FE49B7951A29E00700BDC64D /* network.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE49B7931A29E00700BDC64D /* network.cpp */; };
-		FE49B7981A29E40E00BDC64D /* ai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE49B7961A29E40E00BDC64D /* ai.cpp */; };
-		FE49B7A01A29F3AF00BDC64D /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE49B79F1A29F3AF00BDC64D /* libboost_system.a */; };
+		FE0135671A3B17DD0016534A /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE49B79F1A29F3AF00BDC64D /* libboost_system.a */; };
+		FE8256F41A3EBA290026AFC2 /* ai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8256E91A3EBA290026AFC2 /* ai.cpp */; };
+		FE8256F51A3EBA290026AFC2 /* animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8256EB1A3EBA290026AFC2 /* animal.cpp */; };
+		FE8256F61A3EBA290026AFC2 /* board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8256ED1A3EBA290026AFC2 /* board.cpp */; };
+		FE8256F71A3EBA290026AFC2 /* helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8256EF1A3EBA290026AFC2 /* helper.cpp */; };
+		FE8256F81A3EBA290026AFC2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8256F11A3EBA290026AFC2 /* main.cpp */; };
+		FE8256F91A3EBA290026AFC2 /* network.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8256F21A3EBA290026AFC2 /* network.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FE8A99F01A2714CD009E2795 /* CopyFiles */ = {
+		FE0135681A3B17DD0016534A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -29,38 +29,56 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FE42BA241A28AF95004AAC92 /* helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helper.h; sourceTree = "<group>"; };
-		FE42BA251A28B210004AAC92 /* board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = board.cpp; sourceTree = "<group>"; };
-		FE42BA261A28B210004AAC92 /* board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = board.h; sourceTree = "<group>"; };
-		FE42BA281A28B3F7004AAC92 /* animal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = animal.cpp; sourceTree = "<group>"; };
-		FE42BA291A28B3F7004AAC92 /* animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animal.h; sourceTree = "<group>"; };
-		FE42BA2B1A28C12D004AAC92 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		FE42BA2D1A28C272004AAC92 /* helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = helper.cpp; sourceTree = "<group>"; };
-		FE49B7931A29E00700BDC64D /* network.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = network.cpp; sourceTree = "<group>"; };
-		FE49B7941A29E00700BDC64D /* network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
-		FE49B7961A29E40E00BDC64D /* ai.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ai.cpp; sourceTree = "<group>"; };
-		FE49B7971A29E40E00BDC64D /* ai.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ai.h; sourceTree = "<group>"; };
+		FE01356C1A3B17DD0016534A /* Random copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Random copy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE49B79F1A29F3AF00BDC64D /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../../../../../usr/local/Cellar/boost/1.56.0/lib/libboost_system.a; sourceTree = "<group>"; };
-		FE8A99F21A2714CD009E2795 /* Random */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Random; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8256E91A3EBA290026AFC2 /* ai.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ai.cpp; path = Stupid/ai.cpp; sourceTree = "<group>"; };
+		FE8256EA1A3EBA290026AFC2 /* ai.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ai.h; path = Stupid/ai.h; sourceTree = "<group>"; };
+		FE8256EB1A3EBA290026AFC2 /* animal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = animal.cpp; path = Stupid/animal.cpp; sourceTree = "<group>"; };
+		FE8256EC1A3EBA290026AFC2 /* animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = animal.h; path = Stupid/animal.h; sourceTree = "<group>"; };
+		FE8256ED1A3EBA290026AFC2 /* board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = board.cpp; path = Stupid/board.cpp; sourceTree = "<group>"; };
+		FE8256EE1A3EBA290026AFC2 /* board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = board.h; path = Stupid/board.h; sourceTree = "<group>"; };
+		FE8256EF1A3EBA290026AFC2 /* helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = helper.cpp; path = Stupid/helper.cpp; sourceTree = "<group>"; };
+		FE8256F01A3EBA290026AFC2 /* helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helper.h; path = Stupid/helper.h; sourceTree = "<group>"; };
+		FE8256F11A3EBA290026AFC2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Stupid/main.cpp; sourceTree = "<group>"; };
+		FE8256F21A3EBA290026AFC2 /* network.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = network.cpp; path = Stupid/network.cpp; sourceTree = "<group>"; };
+		FE8256F31A3EBA290026AFC2 /* network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = network.h; path = Stupid/network.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FE8A99EF1A2714CD009E2795 /* Frameworks */ = {
+		FE0135661A3B17DD0016534A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE49B7A01A29F3AF00BDC64D /* libboost_system.a in Frameworks */,
+				FE0135671A3B17DD0016534A /* libboost_system.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE8256E81A3EBA030026AFC2 /* Stupid */ = {
+			isa = PBXGroup;
+			children = (
+				FE8256E91A3EBA290026AFC2 /* ai.cpp */,
+				FE8256EA1A3EBA290026AFC2 /* ai.h */,
+				FE8256EB1A3EBA290026AFC2 /* animal.cpp */,
+				FE8256EC1A3EBA290026AFC2 /* animal.h */,
+				FE8256ED1A3EBA290026AFC2 /* board.cpp */,
+				FE8256EE1A3EBA290026AFC2 /* board.h */,
+				FE8256EF1A3EBA290026AFC2 /* helper.cpp */,
+				FE8256F01A3EBA290026AFC2 /* helper.h */,
+				FE8256F11A3EBA290026AFC2 /* main.cpp */,
+				FE8256F21A3EBA290026AFC2 /* network.cpp */,
+				FE8256F31A3EBA290026AFC2 /* network.h */,
+			);
+			name = Stupid;
+			sourceTree = "<group>";
+		};
 		FE8A99D71A2713DC009E2795 = {
 			isa = PBXGroup;
 			children = (
 				FE49B79F1A29F3AF00BDC64D /* libboost_system.a */,
-				FE8A99F31A2714CD009E2795 /* Random */,
+				FE8256E81A3EBA030026AFC2 /* Stupid */,
 				FE8A99E11A2713DC009E2795 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,47 +86,29 @@
 		FE8A99E11A2713DC009E2795 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE8A99F21A2714CD009E2795 /* Random */,
+				FE01356C1A3B17DD0016534A /* Random copy */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FE8A99F31A2714CD009E2795 /* Random */ = {
-			isa = PBXGroup;
-			children = (
-				FE42BA2D1A28C272004AAC92 /* helper.cpp */,
-				FE42BA241A28AF95004AAC92 /* helper.h */,
-				FE42BA251A28B210004AAC92 /* board.cpp */,
-				FE42BA261A28B210004AAC92 /* board.h */,
-				FE42BA281A28B3F7004AAC92 /* animal.cpp */,
-				FE42BA291A28B3F7004AAC92 /* animal.h */,
-				FE49B7931A29E00700BDC64D /* network.cpp */,
-				FE49B7941A29E00700BDC64D /* network.h */,
-				FE42BA2B1A28C12D004AAC92 /* main.cpp */,
-				FE49B7961A29E40E00BDC64D /* ai.cpp */,
-				FE49B7971A29E40E00BDC64D /* ai.h */,
-			);
-			path = Random;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE8A99F11A2714CD009E2795 /* Random */ = {
+		FE01355E1A3B17DD0016534A /* animal-ai */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE8A99F61A2714CD009E2795 /* Build configuration list for PBXNativeTarget "Random" */;
+			buildConfigurationList = FE0135691A3B17DD0016534A /* Build configuration list for PBXNativeTarget "animal-ai" */;
 			buildPhases = (
-				FE8A99EE1A2714CD009E2795 /* Sources */,
-				FE8A99EF1A2714CD009E2795 /* Frameworks */,
-				FE8A99F01A2714CD009E2795 /* CopyFiles */,
+				FE01355F1A3B17DD0016534A /* Sources */,
+				FE0135661A3B17DD0016534A /* Frameworks */,
+				FE0135681A3B17DD0016534A /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Random;
+			name = "animal-ai";
 			productName = Random;
-			productReference = FE8A99F21A2714CD009E2795 /* Random */;
+			productReference = FE01356C1A3B17DD0016534A /* Random copy */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -119,11 +119,6 @@
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Lequn Chen";
-				TargetAttributes = {
-					FE8A99F11A2714CD009E2795 = {
-						CreatedOnToolsVersion = 6.1;
-					};
-				};
 			};
 			buildConfigurationList = FE8A99DB1A2713DC009E2795 /* Build configuration list for PBXProject "animal-ai" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -137,28 +132,68 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE8A99F11A2714CD009E2795 /* Random */,
+				FE01355E1A3B17DD0016534A /* animal-ai */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FE8A99EE1A2714CD009E2795 /* Sources */ = {
+		FE01355F1A3B17DD0016534A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE42BA271A28B210004AAC92 /* board.cpp in Sources */,
-				FE42BA2A1A28B3F7004AAC92 /* animal.cpp in Sources */,
-				FE42BA2C1A28C12D004AAC92 /* main.cpp in Sources */,
-				FE49B7951A29E00700BDC64D /* network.cpp in Sources */,
-				FE42BA2E1A28C272004AAC92 /* helper.cpp in Sources */,
-				FE49B7981A29E40E00BDC64D /* ai.cpp in Sources */,
+				FE8256F91A3EBA290026AFC2 /* network.cpp in Sources */,
+				FE8256F61A3EBA290026AFC2 /* board.cpp in Sources */,
+				FE8256F81A3EBA290026AFC2 /* main.cpp in Sources */,
+				FE8256F41A3EBA290026AFC2 /* ai.cpp in Sources */,
+				FE8256F51A3EBA290026AFC2 /* animal.cpp in Sources */,
+				FE8256F71A3EBA290026AFC2 /* helper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		FE01356A1A3B17DD0016534A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.56.0/lib;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-isystem",
+					/usr/local/Cellar/boost/1.56.0/include,
+				);
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = "Random copy";
+			};
+			name = Debug;
+		};
+		FE01356B1A3B17DD0016534A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.56.0/lib;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-isystem",
+					/usr/local/Cellar/boost/1.56.0/include,
+				);
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = "Random copy";
+			};
+			name = Release;
+		};
 		FE8A99E51A2713DC009E2795 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -233,55 +268,23 @@
 			};
 			name = Release;
 		};
-		FE8A99F71A2714CD009E2795 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/local/Cellar/boost/1.56.0/include,
-				);
-				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.56.0/lib;
-				PRELINK_LIBS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		FE8A99F81A2714CD009E2795 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/local/Cellar/boost/1.56.0/include,
-				);
-				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.56.0/lib;
-				PRELINK_LIBS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FE0135691A3B17DD0016534A /* Build configuration list for PBXNativeTarget "animal-ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE01356A1A3B17DD0016534A /* Debug */,
+				FE01356B1A3B17DD0016534A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FE8A99DB1A2713DC009E2795 /* Build configuration list for PBXProject "animal-ai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE8A99E51A2713DC009E2795 /* Debug */,
 				FE8A99E61A2713DC009E2795 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE8A99F61A2714CD009E2795 /* Build configuration list for PBXNativeTarget "Random" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE8A99F71A2714CD009E2795 /* Debug */,
-				FE8A99F81A2714CD009E2795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

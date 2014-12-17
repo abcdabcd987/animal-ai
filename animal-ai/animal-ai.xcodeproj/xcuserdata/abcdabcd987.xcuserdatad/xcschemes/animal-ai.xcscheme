@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE8A99DF1A2713DC009E2795"
-               BuildableName = "animal-ai"
+               BlueprintIdentifier = "FE01355E1A3B17DD0016534A"
+               BuildableName = "Random copy"
                BlueprintName = "animal-ai"
                ReferencedContainer = "container:animal-ai.xcodeproj">
             </BuildableReference>
@@ -32,8 +32,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE8A99DF1A2713DC009E2795"
-            BuildableName = "animal-ai"
+            BlueprintIdentifier = "FE01355E1A3B17DD0016534A"
+            BuildableName = "Random copy"
             BlueprintName = "animal-ai"
             ReferencedContainer = "container:animal-ai.xcodeproj">
          </BuildableReference>
@@ -51,12 +51,18 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE8A99DF1A2713DC009E2795"
-            BuildableName = "animal-ai"
+            BlueprintIdentifier = "FE01355E1A3B17DD0016534A"
+            BuildableName = "Random copy"
             BlueprintName = "animal-ai"
             ReferencedContainer = "container:animal-ai.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "localhost"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -69,8 +75,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE8A99DF1A2713DC009E2795"
-            BuildableName = "animal-ai"
+            BlueprintIdentifier = "FE01355E1A3B17DD0016534A"
+            BuildableName = "Random copy"
             BlueprintName = "animal-ai"
             ReferencedContainer = "container:animal-ai.xcodeproj">
          </BuildableReference>
